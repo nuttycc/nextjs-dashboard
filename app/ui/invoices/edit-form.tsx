@@ -32,7 +32,7 @@ export default function EditInvoiceForm({
           <label htmlFor="customer" className="mb-2 block text-sm font-medium">
             Choose customer
           </label>
-          <div className="relative" aria-describedy="customer-error">
+          <div className="relative" aria-describedby="customer-error">
             <select
               id="customer"
               name="customerId"
@@ -99,7 +99,7 @@ export default function EditInvoiceForm({
           <legend className="mb-2 block text-sm font-medium">
             Set the invoice status
           </legend>
-          <div className="rounded-md border border-gray-200 bg-white px-[14px] py-3">
+          <div className="rounded-md border border-gray-200 bg-white px-[14px] py-3" aria-describedby="status-error">
             <div className="flex gap-4">
               <div className="flex items-center">
                 <input
